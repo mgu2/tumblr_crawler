@@ -2,7 +2,8 @@ import re
 import traceback
 from urllib import quote
 import urllib
-
+import TumblrVideo
+import TumblrImage
 
 
 def getHtml(url):
