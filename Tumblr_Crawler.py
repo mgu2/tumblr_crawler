@@ -1,5 +1,7 @@
 import re
 import time
+import TumblrPostDownload
+
 
 def Main_Post_URLDiscrimination(url):
     post_reg = r'(.*?/post/.*?/*.*)'

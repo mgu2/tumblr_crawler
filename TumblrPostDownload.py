@@ -30,7 +30,7 @@ def PostDownload(url):
     if Type == 'video':
         TumblrVideo.getMP4(url)
     elif Type == 'photoset' or 'photo':
-        Tumblrimage.getImg(url)
+        TumblrImage.getImg(url)
     else:
         print('There is nothing!')
 
